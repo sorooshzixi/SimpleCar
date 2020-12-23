@@ -12,7 +12,7 @@ namespace SimpleCar
 {
     public partial class Form1 : Form
     {
-        CarSim MyCar = new CarSim(string.Empty, string.Empty,0,false,false,false,25);
+        CarSim MyCar = new CarSim(string.Empty, string.Empty,0,false,false,false,0);
         public Form1()
         {
             InitializeComponent();
